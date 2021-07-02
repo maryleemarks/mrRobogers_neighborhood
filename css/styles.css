@@ -1,0 +1,14 @@
+.btn {
+  display: block;
+  background-color: red;
+  color:white;
+}
+
+h1 {
+  text-align: center;
+  color:royalblue;
+}
+
+.results {
+  font-weight: bold;
+}
