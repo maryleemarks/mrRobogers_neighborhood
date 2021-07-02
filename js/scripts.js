@@ -1,7 +1,7 @@
 // Business Logic
-const beep = "Beep!"
-const boop = "Boop!"
-const neighbor = "Won't you be my neighbor?"
+const beep = " Beep!"
+const boop = " Boop!"
+const neighbor = " Won't you be my neighbor?"
 
 var beepBoop = function(input) {
   let numbers = [];
@@ -14,7 +14,7 @@ var beepBoop = function(input) {
       return number = neighbor;
     } else if (number.includes("2")) {
       return number = boop;
-    } else if (numbers.includes("1")) {
+    } else if (number.includes("1")) {
       return number = beep;
     } else {
       return number;  
