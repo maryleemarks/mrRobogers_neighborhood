@@ -1,5 +1,6 @@
 // Business Logic
 const beep = "beep!"
+const boop = "boop!"
 
 var beepBoop = function(input) {
   let numbers = [];
@@ -8,7 +9,9 @@ var beepBoop = function(input) {
   };
 
   var beepBoop = numbers.map(function(number) {
-    if (numbers.includes("1")) {
+    if (number.includes("2")) {
+      return number = boop;
+    } else if (numbers.includes("1")) {
       return number = beep;
     } else {
       return number;  
