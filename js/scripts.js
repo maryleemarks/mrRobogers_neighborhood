@@ -26,11 +26,11 @@ var beepBoop = function(input) {
 // UI Logic
 
 $(document).ready(function() {
-  $("form#input").submit(function(event) {
-
-    const inputNumber = parseInt($("input#inputNumber").val());
+  $("form#number").submit(function(event) {
     event.preventDefault();
-  })
-    $("#response").show();
+    var input = parseInt($("input#input").val());
+    var results = beepBoop(input);
+    $("#results").text(results);
+    $(".output").show();
   });
 });
